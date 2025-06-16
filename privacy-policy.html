@@ -5,52 +5,118 @@
     <meta charset="UTF-8">
     <title>Privacy Policy - ThinkB</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 720px;
+            margin: auto;
+            padding: 2em;
+            background-color: #fefefe;
+            color: #222;
+            line-height: 1.6;
+        }
+        h1 {
+            font-size: 2em;
+            color: #2c3e50;
+            margin-bottom: 0.5em;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-top: 1.8em;
+            font-size: 1.2em;
+            color: #34495e;
+        }
+        ul {
+            padding-left: 1.5em;
+        }
+        li {
+            margin-bottom: 0.6em;
+        }
+        .footer {
+            margin-top: 2em;
+            font-style: italic;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #121212;
+                color: #f1f1f1;
+            }
+            h1, .section-title {
+                color: #e3e3e3;
+            }
+            a {
+                color: #4da6ff;
+            }
+        }
+    </style>
 </head>
-<body style="font-family:sans-serif;max-width:700px;margin:auto;padding:2em;">
+<body>
 <h1>Privacy Policy</h1>
 <p><strong>Effective Date:</strong> June 16, 2025</p>
-<p>
-    Last Updated: June 16, 2025
+<p><strong>Last Updated:</strong> June 16, 2025</p>
 
-    Thank you for using ThinkB. Your privacy is important to us. This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile app.
+<p>Thank you for using ThinkB. This Privacy Policy outlines the types of data we collect, how we use it, and your rights related to your personal information when using our mobile application.</p>
 
-    1. Information We Collect
+<div class="section-title">1. Information We Collect</div>
+<ul>
+    <li><strong>Device Information:</strong> Device OS, model, language, IP address, crash logs, and performance data for diagnostics.</li>
+    <li><strong>User-Provided Information:</strong> Quiz preferences, quiz history, notification settings, uploaded PDF files (stored only on device).</li>
+    <li><strong>Subscription & Purchase Data:</strong> Subscription status and entitlement information collected via RevenueCat. We do <strong>not</strong> collect or store any credit card or billing details.</li>
+    <li><strong>Ad Data (Free Users):</strong> Non-personalized identifiers used for advertising, such as AdMob's Advertising ID (AAID or IDFA).</li>
+</ul>
 
-    We may collect the following types of information:
-    •	Device Information: OS, model, language, IP address, crash data.
-    •	User-Provided Data: Quiz preferences, uploaded study materials (stored locally).
-    •	Purchase Data: Subscription status through RevenueCat (no credit card data is stored by us).
-    •	Ad Data: Non-personalized ad identifiers if free version uses ads (Google AdMob).
+<div class="section-title">2. How We Use Your Information</div>
+<ul>
+    <li>To generate personalized quizzes based on user-provided content.</li>
+    <li>To manage subscription levels and unlock premium features.</li>
+    <li>To send scheduled push notifications and reminders, if enabled.</li>
+    <li>To improve performance, track bugs, and enhance user experience.</li>
+    <li>To display ads (free users only).</li>
+</ul>
 
-    2. How We Use Your Information
-    •	To generate quizzes and provide app features.
-    •	To manage subscriptions and access levels.
-    •	To deliver push notifications (with your permission).
-    •	To improve performance and user experience.
+<div class="section-title">3. Data Storage and Security</div>
+<ul>
+    <li>All quiz history and study materials are stored locally on your device using encrypted storage (AsyncStorage or SecuredStorageAsync).</li>
+    <li>We do not upload or store your documents or quizzes on any external server unless required for AI model generation (for Pro/Advanced users only).</li>
+    <li>We apply best practices to protect data from unauthorized access or loss.</li>
+</ul>
 
-    3. Data Storage
-    •	Your study materials and generated quizzes are stored locally on your device.
-    •	We do not store personal information on external servers.
+<div class="section-title">4. Third-Party Services We Use</div>
+<ul>
+    <li><strong>RevenueCat:</strong> Handles in-app subscriptions and entitlement checks. [<a href="https://www.revenuecat.com/privacy" target="_blank">Privacy Policy</a>]</li>
+    <li><strong>Google AdMob:</strong> Displays non-personalized ads to free-tier users. [<a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>]</li>
+    <li><strong>OpenAI (Advanced & Pro Users):</strong> AI-generated quizzes may use anonymized content for model queries. [<a href="https://openai.com/privacy" target="_blank">Privacy Policy</a>]</li>
+    <li><strong>Expo & React Native Libraries:</strong> For push notifications, local file access, and other system features.</li>
+</ul>
 
-    4. Third-Party Services
-    •	RevenueCat (for subscription management)
-    •	Google AdMob (ads)
-    •	Expo & React Native platform tools
+<div class="section-title">5. Your Rights and Choices</div>
+<ul>
+    <li>You can manage notification permissions directly in your device settings.</li>
+    <li>You can upgrade to premium to remove ads and gain additional features.</li>
+    <li>You can delete your app data by uninstalling the app from your device.</li>
+    <li>If your jurisdiction allows, you may contact us to request data deletion or access.</li>
+</ul>
 
-    These services may collect and use your information under their own privacy policies.
+<div class="section-title">6. Data Retention</div>
+<p>We retain locally stored data only on your device. If you uninstall the app, all such data will be permanently deleted. Any analytics or remote AI queries are not linked to personal identifiers.</p>
 
-    5. Your Choices
-    •	You can disable ads via a subscription.
-    •	You can manage notification permissions in your device settings.
-    •	You may delete app data at any time via uninstalling the app.
+<div class="section-title">7. Children’s Privacy</div>
+<p>ThinkB is intended for users aged 4 and above. We do not knowingly collect data from children under 13. If we discover such data was unintentionally collected, we will delete it immediately.</p>
 
-    6. Children’s Privacy
+<div class="section-title">8. Changes to This Policy</div>
+<p>We may update this policy from time to time. We will notify you of any material changes via the app or website. Your continued use of ThinkB constitutes acceptance of the updated policy.</p>
 
-    ThinkB is intended for users aged 13 and older. We do not knowingly collect data from children under 13.
+<div class="section-title">9. Contact Us</div>
+<p>If you have any questions or concerns about this Privacy Policy, please contact us at:<br>
+    📧 <a href="mailto:thinkbapp@gmail.com">thinkbapp@gmail.com</a></p>
 
-    7. Contact Us
-
-    If you have any questions about this Privacy Policy, please contact us at:
-    📧 thinkb.app@gmail.com</p>
+<p class="footer">Thank you for trusting ThinkB with your educational journey.</p>
 </body>
 </html>
